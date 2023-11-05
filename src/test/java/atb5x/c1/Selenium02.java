@@ -1,4 +1,4 @@
-package atb5x;
+package atb5x.c1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;

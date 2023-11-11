@@ -62,14 +62,17 @@ public class SeleniumC2006 {
 
         driver.manage().window().maximize();
 
-        WebElement username = driver.findElement(By.id("login-username"));
+        WebElement username = driver.findElement(By.name("username"));
         username.sendKeys("abc@gmail.com");
 
         WebElement password = driver.findElement(By.id("login-password"));
         password.sendKeys("123");
 
-        WebElement button_submit = driver.findElement(By.id("js-login-btn"));
+        WebElement button_submit = driver.findElement(By.tagName("button"));
         button_submit.click();
+
+        // id -> name -> className -> tag -> css Selector -> Xpath
+
 
         // It is bad practice - right now it fine. ->
         try {

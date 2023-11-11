@@ -48,6 +48,8 @@ public class Selenium06 {
         driver.findElement(By.id("login-password")).sendKeys("Wingify@123");
         driver.findElement(By.id("js-login-btn")).click();
 
+        //contact+atb5x@thetestingacademy.com: ATBx@1234
+
 //        Thread.sleep(2000);
 //
 //        WebElement errorMessgae = driver.findElement(By.className("notification-box-description"));

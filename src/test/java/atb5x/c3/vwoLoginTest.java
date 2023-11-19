@@ -46,6 +46,7 @@ public class vwoLoginTest {
         WebElement error_message = driver.findElement(By.id("js-notification-box-msg"));
         System.out.println(error_message.getText());
 
+
         Assert.assertEquals(error_message.getText(), "Your email, password, IP address or location did not match");
 
     }
